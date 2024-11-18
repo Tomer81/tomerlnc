@@ -43,7 +43,7 @@ https://templatemo.com/tm-567-nomad-force
 }
 @font-face {
     font-family: 'InknutAntiqua'; /* שם הפונט */
-    src: url('fonts/InknutAntiqua-Medium.ttf') format('truetype'); /* מסלול לקובץ הפונט */
+    src: url('https://tomer81.github.io/tomerlnc/fonts/InknutAntiqua-Medium.ttf') format('truetype'); /* מסלול לקובץ הפונט ב-GitHub Pages */
     font-weight: normal; /* משקל הפונט */
     font-style: normal; /* סגנון הפונט */
 }
@@ -54,6 +54,7 @@ h2 {
     font-size: 36px; /* גודל הפונט */
     color: #333; /* צבע הטקסט */   
 }
+
 @font-face {
     font-family: 'KaushanScript'; /* שם הפונט */
     src: url('fonts/KaushanScript-Regular.ttf') format('truetype'); /* מסלול לקובץ הפונט */
