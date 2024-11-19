@@ -39,7 +39,20 @@
         }
       }
     });
- 
+    // הקוד החדש נוסף כאן
+  document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+    navLinks.forEach(link => {
+      link.addEventListener("click", function () {
+        // מסיר את המעמד 'active' מכל ה-Tabs
+        navLinks.forEach(link => link.parentElement.classList.remove("active"));
+
+        // מוסיף את המעמד 'active' לטאב שנלחץ
+        this.parentElement.classList.add("active");
+      });
+    });
+  });
   })(window.jQuery);
 
   
