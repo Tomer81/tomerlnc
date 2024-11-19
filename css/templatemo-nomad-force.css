@@ -57,7 +57,7 @@ h2 {
 
 @font-face {
     font-family: 'KaushanScript'; /* שם הפונט */
-    src: url('fonts/KaushanScript-Regular.ttf') format('truetype'); /* מסלול לקובץ הפונט */
+   src: url('css/fonts/KaushanScript-Regular.ttf') format('truetype'); /* מסלול לקובץ הפונט */
     font-weight: normal;
     font-style: normal;
 }
